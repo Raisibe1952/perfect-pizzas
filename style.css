@@ -1,0 +1,48 @@
+body {
+background-color:lightgrey;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.pizza {
+    border: 1px solid grey;
+    padding: 1.5em;
+    margin: 2em;
+    border-radius: 0em;
+    width: 20em;
+    display: inline-block;
+}
+
+.Large_Pizza {
+    background-color:beige;
+
+
+    }
+
+.Medium_Pizza {
+    background-color: lightsteelblue; 
+
+
+}
+
+
+.Small_Pizza {
+background-color: lightslategrey;
+
+
+}
+
+
+.Contact_details {
+background-color: darkslategrey;
+
+}
+
+@media (min-width: 960px) {
+body {
+background-color:grey;
+}
+.pizzas {
+    display: flex;
+ }
+
+}
